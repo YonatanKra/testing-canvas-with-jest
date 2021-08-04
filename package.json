@@ -22,6 +22,12 @@
   },
   "homepage": "https://github.com/YonatanKra/testing-canvas-with-jest#readme",
   "devDependencies": {
-    "jest": "^27.0.6"
+    "@babel/plugin-transform-modules-commonjs": "^7.14.5",
+    "canvas": "^2.8.0",
+    "jest": "^27.0.6",
+    "jest-canvas-mock": "^2.3.1"
+  },
+  "jest": {
+    "setupFiles": ["jest-canvas-mock"]
   }
 }
