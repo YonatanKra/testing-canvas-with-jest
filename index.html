@@ -5,7 +5,13 @@
     <title>Testing Canvas with Jest</title>
 </head>
 <body>
+    <canvas id="castle" width="600" height="600"></canvas>
+    <script type="module">
+        import {draw} from "./index.js";
 
-    <script src="index.js"></script>
+        const canvas = document.getElementById('castle');
+        const ctx = canvas.getContext('2d');
+        draw(ctx);
+    </script>
 </body>
 </html>
