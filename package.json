@@ -1,0 +1,27 @@
+{
+  "name": "testing-canvas-with-jest",
+  "version": "1.0.0",
+  "description": "Showing how to test canvas with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YonatanKra/testing-canvas-with-jest.git"
+  },
+  "keywords": [
+    "jest",
+    "canvas",
+    "javascript"
+  ],
+  "author": "YonatanKra <kra.yonatan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YonatanKra/testing-canvas-with-jest/issues"
+  },
+  "homepage": "https://github.com/YonatanKra/testing-canvas-with-jest#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
